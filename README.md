@@ -96,12 +96,23 @@ CTU_13-Project/
 git clone https://github.com/nilsaki/Anomaly-Detection-and-Machine-Learning-Based-Classification-on-CTU-13-Botnet-Traffic.git
 
 
-2.Install required libraries:
+2.Install required libraries and run main script:
 pip install -r requirements.txt
-
-3.Run the main script:
 python src/load_data.py
 
+
+
+## Requirements / Environment
+-Python 3.10+ (tested on 3.12)
+
+## Data
+-Raw CTU-13 file should be placed in: data/raw/
+-A small sample is provided for demo: data/sample/ctu13_sample_10k.csv
+
+## Outputs
+-Figures are saved under: figures/
+
+---
 
 ## References
 
