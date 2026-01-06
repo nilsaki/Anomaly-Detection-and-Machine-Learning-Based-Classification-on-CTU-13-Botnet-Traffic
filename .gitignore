@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual env
+.venv/
+venv/
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+
+# Large raw data (do not upload)
+data/raw/
+*.pcap
+*.pcapng
+*.bz2
+*.zip
+
+# Generated stuff (optional)
+*.log
